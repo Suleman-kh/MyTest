@@ -21,6 +21,7 @@ public class ProductEntity {
 	@ManyToOne
 	@JoinColumn(name = "cId" ,nullable = false)
 	private Category category;
+	
 
 
 	public Long getpId() {
